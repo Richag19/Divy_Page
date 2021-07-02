@@ -1,0 +1,116 @@
+*{
+
+}
+
+body{
+	margin:auto;
+	padding:0px;
+	background: #aaeeaa;
+	text:120%;
+	color: purple;
+}
+
+/* style rule for navigation menu*/
+
+.nav-wrapper{
+background-color: #00dd88;
+padding: 5px;
+width: 100%;
+position: sticky;
+top: 0;
+/*z-index:1;*/
+}
+
+.navlist{
+list-style: none;
+padding: 0px;
+font-size: 120%;
+display: flex;
+align-items: stretch;
+justify-content: space-around;
+width: 100%;
+}
+
+a:hover {
+	background: pink;
+}
+
+
+#caption-1{
+text-align: center;
+margin:1px;
+position:absolute;
+top: 40%;
+left: 35%;
+font-weight: bold;
+color:white;
+font-size: 30px;
+animation-name: caption-fade;
+animation-duration: 2s;
+}
+@keyframes caption-fade {
+  0%{opacity: 0; top:0;}
+  100%{opacity: 10;top:40%}
+}
+
+
+#pop-cat{
+  text-align: center;
+}
+
+.boxwrapper{
+position: relative;
+display: flex;
+overflow: auto;
+justify-content: space-around;
+
+}
+
+.box{
+background-color: #4CAF50;
+text-align: center;
+max-width: 20%;
+border-style: solid;
+border-color: #4CAF50;
+border-radius: 20px;
+border-width: 2px;
+margin-top: 8px;
+
+}
+
+.box img{
+  max-width: 100%;
+   position: relative;
+  top:20px;
+}
+
+.cat-text{
+font-size: 1.5em;
+font-weight: bold;
+color: white;
+margin-top: 10%;
+margin-bottom: -2%
+}
+
+.btn-container{
+  background-color: white;
+  position: relative;
+  top:1px;
+  padding: 2px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.view-more-button{
+background-color: #4CAF50;
+max-width: 100%;
+border: none;
+color: white;
+padding: 7px 12px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 9px 10px;
+cursor: pointer;
+border-radius: 5px;
+}
